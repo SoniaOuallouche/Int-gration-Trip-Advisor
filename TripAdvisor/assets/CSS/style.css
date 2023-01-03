@@ -1,0 +1,513 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  font-family: "Trip Sans Med";
+  padding: 0 30px;
+}
+header {
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Logo {
+  height: 42px;
+  width: 180px;
+  margin-top: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.Avis:hover {
+  background-color: black;
+  color: white;
+}
+.Voyages:hover {
+  background-color: black;
+  color: white;
+}
+.Alertes:hover {
+  background-color: black;
+  color: white;
+}
+.Connexion:hover {
+  background-color: white;
+  color: black;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.Avis {
+  height: 42px;
+  width: 70px;
+  background-color: white;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  font-size: 16px;
+
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.Voyages {
+  height: 42px;
+  width: 70px;
+  background-color: white;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  font-size: 16px;
+  margin-left: 5px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Alertes {
+  height: 42px;
+  width: 70px;
+  background-color: white;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+  font-size: 16px;
+  margin-left: 10px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Connexion {
+  color: white;
+  background-color: black;
+  border: none;
+  height: 42px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+main {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 54px;
+  font-weight: bolder;
+}
+h1 span {
+  color: #ff5d5d;
+}
+.Categories {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.Hotel:hover {
+  background-color: black;
+  color: white;
+}
+.Loc:hover {
+  background-color: black;
+  color: white;
+}
+.Activités:hover {
+  background-color: black;
+  color: white;
+}
+.Restaurants:hover {
+  background-color: black;
+  color: white;
+}
+.Forums:hover {
+  background-color: black;
+  color: white;
+}
+.Plus:hover {
+  background-color: black;
+  color: white;
+}
+.Hotel {
+  height: 70px;
+  width: 185px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Loc {
+  height: 70px;
+  width: 185px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Activités {
+  height: 70px;
+  width: 185px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Restaurants {
+  height: 70px;
+  width: 185px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Forums {
+  height: 70px;
+  width: 185px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Plus {
+  height: 70px;
+  width: 185px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-around;
+}
+.Images {
+  height: 430px;
+  display: flex;
+}
+.col1 {
+  height: 100%;
+  flex: 1;
+  margin-right: 2px;
+}
+.col2 {
+  height: 100%;
+  width: 480px;
+}
+.col1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.col2 img {
+  height: calc(50% - 1.5px);
+  width: 100%;
+  object-fit: cover;
+}
+.col2 img:first-child {
+  border-top-right-radius: 20px;
+}
+.col2 img:last-child {
+  border-bottom-right-radius: 20px;
+}
+.Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 300px;
+  width: 550px;
+  padding-top: 60px;
+}
+.h2 {
+  font-size: 28px;
+  height: 33px;
+}
+.Text p {
+  font-family: Georgia;
+  font-weight: 10px;
+  height: 24px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+.Carroussel {
+  display: flex;
+  align-items: flex-start;
+  height: 100px;
+  margin-bottom: 280px;
+}
+.colonne1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100px;
+}
+.colonne1 h3 {
+  font-size: 24px;
+  font-family: "Trip Sans Reg";
+}
+.colonne1 p {
+  font-family: Georgia;
+  font-size: 18px;
+  margin-top: 2px;
+  width: 280px;
+}
+.colonne1 button {
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.colonne1 button:hover {
+  color: grey;
+}
+.colonne2 {
+  display: flex;
+}
+.colonne2 img {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  width: 290px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+h4 {
+  font-size: 18px;
+  cursor: pointer;
+}
+.colonne2 span {
+  font-family: "Trip Sans Reg";
+  font-size: 14px;
+}
+
+.circle {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+.circle2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+.circle3 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+.circle:hover {
+  color: red;
+}
+.circle2:hover {
+  color: red;
+}
+.circle3:hover {
+  color: red;
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+.Carroussel2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100px;
+  margin-bottom: 350px;
+}
+.col1bis {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100px;
+}
+.col1bis h3 {
+  font-size: 24px;
+  font-family: "Trip Sans Reg";
+}
+.col1bis p {
+  font-family: Georgia;
+  font-size: 18px;
+  margin-top: 2px;
+  width: 280px;
+}
+.col1bis button {
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.col1bis button:hover {
+  color: grey;
+}
+.col2bis {
+  display: flex;
+}
+.col2bis img {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  width: 290px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.C {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+.C2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+.C3 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+.C:hover {
+  color: red;
+}
+.C2:hover {
+  color: red;
+}
+.C3:hover {
+  color: red;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+}
+.Head > i {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  header nav span {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  .Head > i {
+    display: flex;
+  }
+  .Logo {
+    width: 120px;
+    height: 30px;
+  }
+}
